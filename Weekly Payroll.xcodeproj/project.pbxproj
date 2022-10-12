@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F16D3FF328DDF91C00F9C59D /* Weekly_PayrollApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16D3FF228DDF91C00F9C59D /* Weekly_PayrollApp.swift */; };
+		F16D3FF528DDF91C00F9C59D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16D3FF428DDF91C00F9C59D /* ContentView.swift */; };
+		F16D3FF728DDF91D00F9C59D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16D3FF628DDF91D00F9C59D /* Assets.xcassets */; };
+		F16D3FFA28DDF91D00F9C59D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16D3FF928DDF91D00F9C59D /* Preview Assets.xcassets */; };
+		F16D400428DDF91D00F9C59D /* Weekly_PayrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16D400328DDF91D00F9C59D /* Weekly_PayrollTests.swift */; };
+		F16D400E28DDF91D00F9C59D /* Weekly_PayrollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16D400D28DDF91D00F9C59D /* Weekly_PayrollUITests.swift */; };
+		F16D401028DDF91D00F9C59D /* Weekly_PayrollUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16D400F28DDF91D00F9C59D /* Weekly_PayrollUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F16D400028DDF91D00F9C59D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F16D3FE728DDF91C00F9C59D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F16D3FEE28DDF91C00F9C59D;
+			remoteInfo = "Weekly Payroll";
+		};
+		F16D400A28DDF91D00F9C59D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F16D3FE728DDF91C00F9C59D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F16D3FEE28DDF91C00F9C59D;
+			remoteInfo = "Weekly Payroll";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F16D3FEF28DDF91C00F9C59D /* Weekly Payroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weekly Payroll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16D3FF228DDF91C00F9C59D /* Weekly_PayrollApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekly_PayrollApp.swift; sourceTree = "<group>"; };
+		F16D3FF428DDF91C00F9C59D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F16D3FF628DDF91D00F9C59D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F16D3FF928DDF91D00F9C59D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F16D3FFF28DDF91D00F9C59D /* Weekly PayrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weekly PayrollTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16D400328DDF91D00F9C59D /* Weekly_PayrollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekly_PayrollTests.swift; sourceTree = "<group>"; };
+		F16D400928DDF91D00F9C59D /* Weekly PayrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weekly PayrollUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16D400D28DDF91D00F9C59D /* Weekly_PayrollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekly_PayrollUITests.swift; sourceTree = "<group>"; };
+		F16D400F28DDF91D00F9C59D /* Weekly_PayrollUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekly_PayrollUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F16D3FEC28DDF91C00F9C59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16D3FFC28DDF91D00F9C59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16D400628DDF91D00F9C59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F16D3FE628DDF91C00F9C59D = {
+			isa = PBXGroup;
+			children = (
+				F16D3FF128DDF91C00F9C59D /* Weekly Payroll */,
+				F16D400228DDF91D00F9C59D /* Weekly PayrollTests */,
+				F16D400C28DDF91D00F9C59D /* Weekly PayrollUITests */,
+				F16D3FF028DDF91C00F9C59D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F16D3FF028DDF91C00F9C59D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F16D3FEF28DDF91C00F9C59D /* Weekly Payroll.app */,
+				F16D3FFF28DDF91D00F9C59D /* Weekly PayrollTests.xctest */,
+				F16D400928DDF91D00F9C59D /* Weekly PayrollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F16D3FF128DDF91C00F9C59D /* Weekly Payroll */ = {
+			isa = PBXGroup;
+			children = (
+				F16D3FF228DDF91C00F9C59D /* Weekly_PayrollApp.swift */,
+				F16D3FF428DDF91C00F9C59D /* ContentView.swift */,
+				F16D3FF628DDF91D00F9C59D /* Assets.xcassets */,
+				F16D3FF828DDF91D00F9C59D /* Preview Content */,
+			);
+			path = "Weekly Payroll";
+			sourceTree = "<group>";
+		};
+		F16D3FF828DDF91D00F9C59D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F16D3FF928DDF91D00F9C59D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F16D400228DDF91D00F9C59D /* Weekly PayrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				F16D400328DDF91D00F9C59D /* Weekly_PayrollTests.swift */,
+			);
+			path = "Weekly PayrollTests";
+			sourceTree = "<group>";
+		};
+		F16D400C28DDF91D00F9C59D /* Weekly PayrollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F16D400D28DDF91D00F9C59D /* Weekly_PayrollUITests.swift */,
+				F16D400F28DDF91D00F9C59D /* Weekly_PayrollUITestsLaunchTests.swift */,
+			);
+			path = "Weekly PayrollUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F16D3FEE28DDF91C00F9C59D /* Weekly Payroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16D401328DDF91E00F9C59D /* Build configuration list for PBXNativeTarget "Weekly Payroll" */;
+			buildPhases = (
+				F16D3FEB28DDF91C00F9C59D /* Sources */,
+				F16D3FEC28DDF91C00F9C59D /* Frameworks */,
+				F16D3FED28DDF91C00F9C59D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Weekly Payroll";
+			productName = "Weekly Payroll";
+			productReference = F16D3FEF28DDF91C00F9C59D /* Weekly Payroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F16D3FFE28DDF91D00F9C59D /* Weekly PayrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16D401628DDF91E00F9C59D /* Build configuration list for PBXNativeTarget "Weekly PayrollTests" */;
+			buildPhases = (
+				F16D3FFB28DDF91D00F9C59D /* Sources */,
+				F16D3FFC28DDF91D00F9C59D /* Frameworks */,
+				F16D3FFD28DDF91D00F9C59D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F16D400128DDF91D00F9C59D /* PBXTargetDependency */,
+			);
+			name = "Weekly PayrollTests";
+			productName = "Weekly PayrollTests";
+			productReference = F16D3FFF28DDF91D00F9C59D /* Weekly PayrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F16D400828DDF91D00F9C59D /* Weekly PayrollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16D401928DDF91E00F9C59D /* Build configuration list for PBXNativeTarget "Weekly PayrollUITests" */;
+			buildPhases = (
+				F16D400528DDF91D00F9C59D /* Sources */,
+				F16D400628DDF91D00F9C59D /* Frameworks */,
+				F16D400728DDF91D00F9C59D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F16D400B28DDF91D00F9C59D /* PBXTargetDependency */,
+			);
+			name = "Weekly PayrollUITests";
+			productName = "Weekly PayrollUITests";
+			productReference = F16D400928DDF91D00F9C59D /* Weekly PayrollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F16D3FE728DDF91C00F9C59D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F16D3FEE28DDF91C00F9C59D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					F16D3FFE28DDF91D00F9C59D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F16D3FEE28DDF91C00F9C59D;
+					};
+					F16D400828DDF91D00F9C59D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F16D3FEE28DDF91C00F9C59D;
+					};
+				};
+			};
+			buildConfigurationList = F16D3FEA28DDF91C00F9C59D /* Build configuration list for PBXProject "Weekly Payroll" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F16D3FE628DDF91C00F9C59D;
+			productRefGroup = F16D3FF028DDF91C00F9C59D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F16D3FEE28DDF91C00F9C59D /* Weekly Payroll */,
+				F16D3FFE28DDF91D00F9C59D /* Weekly PayrollTests */,
+				F16D400828DDF91D00F9C59D /* Weekly PayrollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F16D3FED28DDF91C00F9C59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16D3FFA28DDF91D00F9C59D /* Preview Assets.xcassets in Resources */,
+				F16D3FF728DDF91D00F9C59D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16D3FFD28DDF91D00F9C59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16D400728DDF91D00F9C59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F16D3FEB28DDF91C00F9C59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16D3FF528DDF91C00F9C59D /* ContentView.swift in Sources */,
+				F16D3FF328DDF91C00F9C59D /* Weekly_PayrollApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16D3FFB28DDF91D00F9C59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16D400428DDF91D00F9C59D /* Weekly_PayrollTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16D400528DDF91D00F9C59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16D400E28DDF91D00F9C59D /* Weekly_PayrollUITests.swift in Sources */,
+				F16D401028DDF91D00F9C59D /* Weekly_PayrollUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F16D400128DDF91D00F9C59D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F16D3FEE28DDF91C00F9C59D /* Weekly Payroll */;
+			targetProxy = F16D400028DDF91D00F9C59D /* PBXContainerItemProxy */;
+		};
+		F16D400B28DDF91D00F9C59D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F16D3FEE28DDF91C00F9C59D /* Weekly Payroll */;
+			targetProxy = F16D400A28DDF91D00F9C59D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F16D401128DDF91E00F9C59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F16D401228DDF91E00F9C59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F16D401428DDF91E00F9C59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weekly Payroll/Preview Content\"";
+				DEVELOPMENT_TEAM = W3GN63M436;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MobileApps.Weekly-Payroll";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F16D401528DDF91E00F9C59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weekly Payroll/Preview Content\"";
+				DEVELOPMENT_TEAM = W3GN63M436;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MobileApps.Weekly-Payroll";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F16D401728DDF91E00F9C59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3GN63M436;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MobileApps.Weekly-PayrollTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weekly Payroll.app/Weekly Payroll";
+			};
+			name = Debug;
+		};
+		F16D401828DDF91E00F9C59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3GN63M436;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MobileApps.Weekly-PayrollTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weekly Payroll.app/Weekly Payroll";
+			};
+			name = Release;
+		};
+		F16D401A28DDF91E00F9C59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3GN63M436;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MobileApps.Weekly-PayrollUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Weekly Payroll";
+			};
+			name = Debug;
+		};
+		F16D401B28DDF91E00F9C59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3GN63M436;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MobileApps.Weekly-PayrollUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Weekly Payroll";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F16D3FEA28DDF91C00F9C59D /* Build configuration list for PBXProject "Weekly Payroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16D401128DDF91E00F9C59D /* Debug */,
+				F16D401228DDF91E00F9C59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16D401328DDF91E00F9C59D /* Build configuration list for PBXNativeTarget "Weekly Payroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16D401428DDF91E00F9C59D /* Debug */,
+				F16D401528DDF91E00F9C59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16D401628DDF91E00F9C59D /* Build configuration list for PBXNativeTarget "Weekly PayrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16D401728DDF91E00F9C59D /* Debug */,
+				F16D401828DDF91E00F9C59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16D401928DDF91E00F9C59D /* Build configuration list for PBXNativeTarget "Weekly PayrollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16D401A28DDF91E00F9C59D /* Debug */,
+				F16D401B28DDF91E00F9C59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F16D3FE728DDF91C00F9C59D /* Project object */;
+}
